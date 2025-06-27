@@ -1,3 +1,5 @@
+before flashing to jetson, enable the SPI1: 
 ```bash
-cd Linux_for_Tegra
+cd /path/Linux_for_Tegra
+sudo bash modify-spi.sh
 ```
